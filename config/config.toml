@@ -1,0 +1,34 @@
+# 应用系统设置
+[setting]
+    logpath = "./logs"
+    assest=""
+    domain=""
+
+# HTTP Server
+[server]
+	Address     = ":8199"
+	ServerAgent = "wx-police-platform"
+
+#wxrobot Server
+[werobot]
+    wxAppId         = "wx98032a0070ce4817"
+    wxAppSecret     = "2b8501a770045029523333c5854dd001"
+    wxOriId         = ""
+    wxToken         = "zxcvbvcxz"
+    wxEncodedAESKey = ""
+
+# Logger.
+[logger]
+    Path        = "./logs"
+    Level       = "all"
+    Stdout      = true
+
+# Database.
+[database]
+    link  = "mysql:root:12345678@tcp(127.0.0.1:3306)/test"
+    debug = true
+    # Database logger.
+    [database.logger]
+        Path   = "/tmp/log/gf-app/sql"
+        Level  = "all"
+        Stdout = true
