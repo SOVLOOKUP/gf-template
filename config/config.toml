@@ -16,9 +16,9 @@
     # 启用全局拦截
     globalMiddleware = false
     # 这里是按照前缀拦截，拦截/user /user/list /user/add ...
-    authPaths = ["/dsfs"]
+    authPaths = []
     # 不拦截路径  /user/info,/system/user/info,/system/user,
-    authExcludePaths = ["/adfsfd"]
+    authExcludePaths = []
 
 #wxrobot Server
 [werobot]
