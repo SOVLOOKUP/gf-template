@@ -9,6 +9,17 @@
 	Address     = ":8199"
 	ServerAgent = "wx-police-platform"
 
+# 鉴权器设置
+[tokenizer]
+    loginPath   = "/login"
+    logoutPath  = "/logout"
+    # 启用全局拦截
+    globalMiddleware = false
+    # 这里是按照前缀拦截，拦截/user /user/list /user/add ...
+    authPaths = ["/dsfs"]
+    # 不拦截路径  /user/info,/system/user/info,/system/user,
+    authExcludePaths = ["/adfsfd"]
+
 #wxrobot Server
 [werobot]
     wxAppId         = "wx98032a0070ce4817"
