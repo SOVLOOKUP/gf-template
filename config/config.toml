@@ -19,6 +19,8 @@
     authPaths = []
     # 不拦截路径  /user/info,/system/user/info,/system/user,
     authExcludePaths = []
+    # 1 gcache 2 gredis
+    cacheMode = 1
 
 # Logger.
 [logger]
