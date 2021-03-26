@@ -1,8 +1,8 @@
 module gf-app
 
 require (
-	github.com/goflyfox/gtoken v1.3.21
-	github.com/gogf/gf v1.14.2
+	github.com/goflyfox/gtoken v1.4.1
+	github.com/gogf/gf v1.15.3
 )
 
-go 1.11
+go 1.16

@@ -7,7 +7,7 @@
 # HTTP Server
 [server]
 	Address     = ":8199"
-	ServerAgent = "wx-police-platform"
+	ServerAgent = "myapp"
 
 # 鉴权器设置
 [tokenizer]
@@ -19,14 +19,6 @@
     authPaths = []
     # 不拦截路径  /user/info,/system/user/info,/system/user,
     authExcludePaths = []
-
-#wxrobot Server
-[werobot]
-    wxAppId         = "wx98032a0070ce4817"
-    wxAppSecret     = "2b8501a770045029523333c5854dd001"
-    wxOriId         = ""
-    wxToken         = "zxcvbvcxz"
-    wxEncodedAESKey = ""
 
 # Logger.
 [logger]
